@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>YuGioH-cards</title>
+</head>
+<body>
+  <div id='seccionTitle'>
+    <img id='logoName' src='./assent/logoName.png' alt='logaName'>
+  </div>
+  <h2>Selecciona el tipo de carta</h2>
+
+  <section id = 'seccionBntCardType'>
+    <button class='btnCartType' id='btnRandomCard'>Random Cards</button>
+    <button class='btnCartType' id='btnNormalMonster'>Normal Monsters</button>
+    <button class='btnCartType' id='btnEffectMonster'>Effect Monsters</button>
+    <button class='btnCartType' id='btnSpellCard'>Spell Cards</button>
+    <button class='btnCartType' id='btnTrapCard'>Trap Cards</button>
+  </section>
+  
+  <section id = 'seccionRandomCardImages'>
+    <div class='cardImageBox'>
+      <img id='img1'  class='cardImages' alt='yugiohCard'>
+      <button class='btnAddCard' id='btnAddCard1' accesskey="1">Añadir a Baraja</button>
+    </div>
+    <div class='cardImageBox'> 
+      <img id='img2' class='cardImages' alt='yugiohCard'>
+      <button class='btnAddCard' id='btnAddCard2' accesskey="2">Añadir a Baraja</button>
+    </div>
+    <div class='cardImageBox'> 
+      <img id='img3' class='cardImages' alt='yugiohCard'>
+      <button class='btnAddCard' id='btnAddCard3' accesskey="3">Añadir a Baraja</button>
+    </div>
+  </section>
+
+  <section id= SeccionDesk>
+    <h2>BARAJA</h2>
+    <div id='SeccionSelectCards'></div>
+  </section>
+    
+
+	<script src="./main.js"></script>
+</body>
+</html>

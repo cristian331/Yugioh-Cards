@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Eater&family=Joti+One&family=Pangolin&display=swap');
+
+html {
+    background-color: #0f0f48;
+     /* #27275a   */
+    margin-bottom: 0px;
+    height: 800px;
+    background-image: url("./assent/magoOscuro.png");
+    /* url("./assent/dragonPlateado.png") bottom right no-repeat 20rem; */
+    background-repeat:no-repeat;
+    background-position-x:left;
+    background-position-y:bottom; 
+    background-size: 20rem;
+}
+
+
+h1 {
+    color: whitesmoke;
+    font-family: 'Eater', cursive;
+    display: flex;
+    justify-content: center
+}
+
+#logoName{
+    height: 115px;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    color: #a7732e;
+    font-family: 'Pangolin', cursive;
+    font-size: 20px;
+    display: flex;
+    justify-content: center
+}
+
+/* img {
+    width: 250px;
+    display: flex;
+    justify-content: center
+} */
+
+.btnCartType, .btnAddCard {
+    background-color: #efa43f;
+    height: 25px;
+    width: 150px;
+    border-radius: 10px;
+    border: 1px solid #7e7b21;
+    font-weight: 600
+}
+.btnCartType {
+    margin-right: 25px;
+}
+
+#seccionBntCardType {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+#seccionRandomCardImages, #seccionTitle{
+    display: flex;
+    justify-content: center
+}
+
+.cardImages{
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.cardImageBox, .selectCardImageBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.selectCardImageBox {
+    align-items: flex-start
+}
+
+.selectCardImage {
+    width: 115px;
+}
+
+#SeccionDesk {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#SeccionSelectCards {
+    display: grid;
+    display: inline-grid;
+
+    grid-template-columns: [first] 130px [line2] 130px [line3] 130px [line4] 130px [line5] 130px [end];
+    grid-template-rows: [row1-start] 180px [row1-end] 180px [third-line] 180px [last-line];
+}
+
+.bntRemoveCard {
+    margin-top: -21px;
+    background-color: #f3ede485;
+    border-radius: 10px;
+    color: #f11616;
+    font-weight: 600;
+    border: 1px solid #19181785;
+}
